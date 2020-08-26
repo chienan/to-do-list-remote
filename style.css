@@ -1,0 +1,42 @@
+* {
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.container {
+  border: 1px solid grey;
+  width: 300px;
+}
+
+.checked {
+  color: #ccc;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.fa {
+  margin: 0 5px;
+  color: #bbb;
+}
+
+li>label[for='todo'] {
+  width: 210px;
+  cursor: pointer;
+}
+
+li>label[for='todo']:hover {
+  background-color: rgba(29, 33, 41, 0.04);
+  border-radius: 2px;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.form-inline {
+  padding: 15px 0;
+}
+
+#my-todo {
+  margin-top: 10px;
+}
